@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            background-color: #121212;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            height: 50px;
+            width: auto;
+        }
+
+        header nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav a:hover {
+            color: #00b894;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background-color: #00b894;
+            color: #121212;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+
+
+				.cta-button {
+						display: inline-block;
+						padding: 15px 30px;
+						font-size: 1.2rem;
+						font-weight: bold;
+						color: #121212;
+						background: #fff;
+						border-radius: 30px;
+						text-decoration: none;
+						transition: transform 0.3s, background 0.3s;
+				}
+
+				.cta-button:hover {
+						background: #ffeaa7;
+						transform: scale(1.1);
+				}
+
+        .section {
+            padding: 50px 20px;
+        }
+
+        .section h3 {
+						text-align: center;
+            color: #00b894;
+            margin-bottom: 20px;
+        }
+
+				.section h2 {
+						text-align: center;
+            color: #00b894;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            color: #e0e0e0;
+        }
+
+        .services, .portfolio {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .service, .portfolio-item {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            width: 250px;
+						text-align: center;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            display: inline-block;
+            background-color: #00b894;
+            color: #121212;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 20px;
+            color: #aaa;
+        }
+
+        footer a {
+            color: #00b894;
+            text-decoration: none;
+        }
+
+				#sobre {
+					text-align: center;
+				}
+
+				#title-services {
+					color: #00b894;
+				}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="AGCG.png" alt="Logo da Empresa">
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#precos">Preços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+		<section class="hero" id="home">
+			<div class="hero-content">
+					<h1>Transforme sua Ideia em Realidade Digital</h1>
+					<p>Websites modernos, funcionais e com design exclusivo para destacar sua marca.</p>
+					<a href="#contato" class="cta-button">Comece Agora</a>
+			</div>
+	</section>
+
+    <section class="section" id="sobre">
+        <h3>Sobre Nós</h3>
+        <p>Somos especialistas em desenvolver soluções digitais que conectam você ao seu público. Nosso foco é criar experiências personalizadas que destacam sua marca no ambiente online.</p>
+    </section>
+
+    <section class="section" id="servicos">
+        <h3>Serviços</h3>
+        <div class="services">
+            <div class="service">
+                <h4 id="title-services">Desenvolvimento de Sites</h4>
+                <p>Sites responsivos e personalizados para sua empresa.</p>
+            </div>
+            <div class="service">
+                <h4 id="title-services">SEO</h4>
+                <p>Otimização para mecanismos de busca no seu site.</p>
+            </div>
+            <div class="service">
+                <h4 id="title-services">Manutenção</h4>
+                <p>Serviços para manter seu site atualizado e funcional.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="precos">
+        <h3>Preços de Sites</h3>
+        <div class="services">
+            <div class="service">
+                <h4 id="title-services">Simples</h4>
+                <p>R$ 350,00</p>
+            </div>
+            <div class="service">
+                <h4 id="title-services">Personalizado</h4>
+                <p>R$ 850,00</p>
+            </div>
+            <div class="service">
+                <h4 id="title-services">Com Sistema Integrado</h4>
+                <p>Faça sua cotação</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="contato">
+        <h2>Contato</h2>
+        <h4>Entre em contato e comece hoje mesmo!</h4>
+				<p>Telefone: (37) 9 9130-9341</p>
+				<p>Email: webagcs@gmail.com</p>
+        <a href="https://www.instagram.com/website.agcg">Nos siga no Instagram</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 WebSitesAgcg. Feito com dedicação para você. <a href="#">Política de Privacidade</a></p>
+    </footer>
+</body>
+</html>
